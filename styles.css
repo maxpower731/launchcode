@@ -1,6 +1,7 @@
 h1 {
     text-align: center;
     font-size: 2em;
+    margin-top: 2em;
     padding-top: .8em;
     padding-bottom: .8em;
     padding-left: 1.5em;
@@ -38,12 +39,11 @@ p {
 }
 
 img {
-    display: inline-block;
     width: 100%;
 }
 
 #videoElement {
-    display: block;
+    display: block; /*centers the video in the page*/
     margin:auto;
     max-width: 100%
 }
@@ -52,20 +52,20 @@ img {
     margin-bottom: 0;
 }
 
-footer p {
-    font-size: .7em;
-    margin: 0;
-    padding-top: 20px;
-}
-
 footer {
     margin: 0;
     text-align: center;
     padding-top: 0;
 }
 
+footer p {
+    font-size: .7em;
+    margin: 0;
+    padding-top: 20px;
+}
+
 header, main, footer, h1, h2 {
-    background-color: rgb(248, 242, 233);
+    background-color: rgb(248, 242, 233); /* sets all of the middle of the page to the same background color */
 }
 
  /* The navigation bar */
@@ -74,32 +74,11 @@ header, main, footer, h1, h2 {
     background-color: #333;
     position: fixed; /* Set the navbar to fixed position */
     top: 0; /* Position the navbar at the top of the page */
-    left: 0;
+    left: 0; /* makes nav bar start all the way to the left of the page */
     width: 100%; /* Full width */
   }
 
-  /* Links inside the navbar */
-  /* .navbar a, .dropbtn {
-    float: left;
-    display: block;
-    color: #f2f2f2;
-    text-align: center;
-    padding: 14px 16px;
-    text-decoration: none;
-  } */
-
-  /* Change background on mouse-over */
-  /* .navbar a:hover, .dropdown:hover .dropbtn{
-    background: #ddd;
-    color: black;
-  } */
-
-  /* Main content */
-  .main {
-    margin-top: 35px; /* Add a top margin to avoid content overlay */
-  }
-
-  nav ul {
+   nav ul {
     list-style-type: none;
     margin: 0;
     padding: 0;
@@ -133,7 +112,7 @@ header, main, footer, h1, h2 {
     position: absolute;
     background-color: #f9f9f9;
     min-width: 160px;
-    box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+    box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.5);
     z-index: 1;
   }
 
