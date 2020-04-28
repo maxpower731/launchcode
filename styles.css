@@ -1,0 +1,68 @@
+h1 {
+    text-align: center;
+    font-size: 2.5em;
+    padding-top: .8em;
+    padding-bottom: .8em;
+    padding-left: 1.5em;
+    padding-right: 1.5em
+}
+
+h2 {
+    margin-left: 1em;
+}
+
+#topH2 {
+    padding-top: 1em;
+}
+
+h3 {
+    margin-left: 1.4em
+}
+
+body {
+    font-family: 'Muli';
+    font-size: 1.2em;
+    max-width: 1024px;
+    margin: 0 auto;
+    background: url(./images/Background.jpg) no-repeat;
+    background-attachment: fixed;
+    background-size: 100%;
+    background-position: center top;
+}
+
+p {
+    padding: 0px;
+    margin-left: 2em;
+    margin-right: 2em;
+}
+
+img {
+    display: inline-block;
+    width: 100%;
+}
+
+#videoElement {
+    display: block;
+    margin:auto;
+    max-width: 100%
+}
+
+.lastElement {
+    margin-bottom: 0;
+}
+
+footer p {
+    font-size: .7em;
+    margin: 0;
+    padding-top: 16px;
+}
+
+footer {
+    margin: 0;
+    text-align: center;
+    padding-top: 0;
+}
+
+header, main, footer, h1, h2 {
+    background-color: rgb(248, 242, 233);
+}

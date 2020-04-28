@@ -4,68 +4,74 @@
 
 <head>
    <title>Max Starkman's Aviation Webpage</title>
+
+   <link rel="stylesheet" href="normalize.css">
+   <link rel="stylesheet" href="styles.css">
+   <link href='https://fonts.googleapis.com/css?family=Muli' rel='stylesheet'>
 </head>
 
 <body>
-   <h1>A Webpage about Aviation, Cool Trips, and Aspirations</h1>
+   <header>
+   <h1>Aviation, Aspirations, and Cool Trips</h1>
+   </header>
 
    <main>
-   <h2>Who is Max Starkman?</h2>
+   <article>
+   <section>
+   <h2 id="topH2">Who is Max Starkman?</h2>
    <p>A proud husband and father of two beautiful kids transitioning from a successful career in the automotive finance industry to one in aviation. I am a perpetual seeker of challenges: I earned my MBA in 2015 from the University of
       Florida (Go Gators!), earned advanced pilot certificates, and am currently working on completing the LaunchCode
       course to learn JavaScript, HTML, CSS, and Java. Generally, I don’t like to sit still! Currently focused
       on my passion – AVIATION.</p>
-   <br><br>
+
    <p>Here's a video of an approach into Colorado Springs, CO.  You can see Pikes Peak in the background.  Views like this are what makes aviation so cool!</p>
-   <video width="720" height="480" controls>
+   <video id="videoElement" width="720" height="480" controls>
       <source src="http://drive.google.com/uc?export=view&id=1DAGih6KyS9cWGEuR1-89Dn-KM1oSwCme" type="video/mp4">
       Your browser does not support the video tag.
     </video>
-   <hr>
+   </section>
 
-   <article>
+   <section>
    <h2>My History in Aviation</h2>
    <p>Interest in aviation struck me at a very young age. When I was only 2 years old my parents asked the pilot if I
    could sit in the cockpit. According to them, I refused to leave. Fast forward to high school in the early 2000’s
    and my friends and I discovered you could play multiplayer on our PCs. We hooked up a few computers with LAN
    cables to play Flight Simulator. Those simulated flights often took hours to complete!
-   <br> <br>
+   <p>
    Then during my freshman year of high school I went to Fantasy of Flight near Lakeland, FL. It would be my first
    time <em>slipping the surly bonds of Earth</em>. The flight took place in an ultralight with a triangle kite-looking wing.
    What a rush, I was hooked!
-   <br> <br>
-   Unfortunately, flight training is expensive and I would need to defer my dreams of flying until I had saved up
+   </p>
+   <p>Unfortunately, flight training is expensive and I would need to defer my dreams of flying until I had saved up
    some cash. It wasn’t until 2012, during my senior year of college, that I would have sufficient funds. I began
    with a few discovery flights at local airports before ultimately deciding to train at a small airport called Tampa
    North (X39). From start to finish it took me roughly 3 months to earn my <abbr title="Private Pilot License">PPL</abbr>. To this day
    it is one of my proudest accomplishments. </p>
-   </article>
+   </section>
 
-   <article>
+   <section>
    <h3>Ten-Hi Flyers</h3>
    <p>In 2015 I joined a wonderful group of pilots as part owner of <a href="http://www.tenhiflyers.com">Ten-Hi Flyers</a> in Broomfield, CO. Having access to
       my <q>own</q> plane was a game changer. No longer was I restricted with short rental periods or high (relatively
       speaking) rental costs. Overnight trips to far away destinations were now a possibility. </p>
    <img src="./images/Dakota 8303Q Flat Irons.jpg" alt="dakota 8303q">
-   </article>
+   </section>
 
-   <hr>
-
-   <article>
+   <section>
    <h2>Cool Trips</h2>
-   <h4>Mt. Rushmore</h4>
+   <h3>Mt. Rushmore</h3>
    <p>Driving from Colorado to South Dakota was projected to take around 7 hours. The flight was just under 2 hours with
       favorable winds. While in South Dakota, we stopped into Hot Springs and visited the Mammouth dig site.</p>
    <img src="./images/MtRushmore.JPG" alt="Mount Rushmore"><img src="./images/HotSpringsDig.JPG" alt="dig site"><img
       src="./images/HotSpringsDig2.JPG" alt="dig site">
-   <h4>Jackson Hole</h4>
+   <h3>Jackson Hole</h3>
    <p>This trip was made in November which meant carefully watching the forecast in the weeks leading up to flight.
       Luckily, the weather was fantastic without a cloud in the sky and we caught sight of the winding Snake River.
       Unfortunately, the winds were not so kind and a fuel stop was needed on the way there. On the way back the winds
       were strong enough to make the flight without any stops. </p>
    <img src="./images/GrandTetons.JPG" alt="grand tetons"><img src="./images/YellowStoneSign.JPG"
       alt="yellowstone sign"><img src="./images/SnakeRiverWY.JPG" alt="snake river">
-   <h4>Santa Fe</h4>
+   <h3>Santa Fe</h3>
    <p>One of my absolutely favorite cities! The culture and cuisine of Santa Fe make it a great destination. Before
       joining Ten-Hi Flyers I made the drive many times with an average travel time of around 6 hours. The plane made
       the trip in under 2 hours and the views are some of the most impressive anywhere. On a very special trip we
@@ -73,17 +79,15 @@
    <img src="./images/BalloonFiesta2.jpg" alt="balloon fiesta"><img src="./images/SantaFeTrip1.jpg"
       alt="santa fe mountains"><img src="./images/SantaFeTrip2.JPG" alt="sante fe mountains"><img
       src="./images/SandDunes.jpg" alt="sand dunes"><img src="./images/BalloonFiesta1.jpg" alt="balloon fiesta"><img src="./images/SnowCappedSantaFe.JPG" alt="mountains snow capped">
-   <h4>Las Vegas</h4>
-   <p>The Commercial Certificate requires a long cross-country flight of greater than 300 nautical miles.  What better way to satisfy an FAA requirement than by going to Vegas?!  The flight was over Moab and near the Grand Canyon.  The Western U.S. is stunning.  While in Vegas I even got a chance to see Ed Sheeran in concert.  It was a pretty great trip.</p>
+   <h3>Las Vegas</h3>
+   <p>The Commercial Pilot Certificate requires a long cross-country flight of greater than 300 nautical miles.  What better way to satisfy an FAA requirement than by going to Vegas?!  The flight was over Moab and near the Grand Canyon.  The Western U.S. is stunning.  While in Vegas I even got a chance to see Ed Sheeran in concert.  It was a pretty great trip.</p>
    <img src="./images/Vegas.JPG" alt="vegas"><img src="./images/EdSheeranConcert.JPG" alt="EdSheeranConcert">
-   <h4>Alliance (Solar Eclipse)</h4>
+   <h3>Alliance (Solar Eclipse)</h3>
    <p>August 21, 2017 was a very special day across much of North America.  A total solar eclipse would be visible from Oregon to the Carolinas.  When some research revealed that a small airport in Alliance, NE would be entirely within the zone of totality (sun is fully blocked by the moon), I planned to make the trip that instant.  The experience was surreal.  People from all backgrounds came together to witness the once in a lifetime event.  All kinds of airplanes from small propeller planes to business jets converged on the small Nebraska town for the event. </p>
    <img src="./images/SolarEclipse1.JPG" alt="solareclipse"><img src="./images/SolarEclipse2.jpg" alt="solareclipse"><img src="./images/SolarEclipse3.JPG" alt="solareclipse"><img src="./images/SolarEclipse4.JPG" alt="solareclipse">
-   </article>
+   </section>
 
-   <hr>
-
-   <article>
+   <section>
    <h2>Future Plans</h2>
    <p>A work promotion brought me and my wife back to Florida in 2017. I decided it was time to pursue the dream and
       began working on earning my Instrument and Commercial ratings. </p>
@@ -94,11 +98,11 @@
    </ul>
    <h2>CFI Work</h2>
    <p>Here are a few of the resources I have developed in preparation for the Certified Flight Instructor certificate:</p>
-   </article>
+   </section>
 
-   <article>
+   <section>
    <h2>Other Interests/Projects</h2>
-   <ul>
+   <ul class="lastElement">
       <li>LaunchCode</li>
       <ul>
          <li>JavaScript</li>
@@ -109,8 +113,8 @@
       <li>Pihole</li>
       <li>Aviation METAR map</li>
    </ul>
-   </article>
-
+   </section>
+</article>
 </main>
 </body>
 
