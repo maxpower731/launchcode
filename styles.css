@@ -1,6 +1,6 @@
 h1 {
     text-align: center;
-    font-size: 2.5em;
+    font-size: 2em;
     padding-top: .8em;
     padding-bottom: .8em;
     padding-left: 1.5em;
@@ -8,6 +8,7 @@ h1 {
 }
 
 h2 {
+    padding-top: 1em;
     margin-left: 1em;
 }
 
@@ -66,3 +67,34 @@ footer {
 header, main, footer, h1, h2 {
     background-color: rgb(248, 242, 233);
 }
+
+ /* The navigation bar */
+ .navbar {
+    overflow: hidden;
+    background-color: #333;
+    position: fixed; /* Set the navbar to fixed position */
+    top: 0; /* Position the navbar at the top of the page */
+    left: 0;
+    width: 100%; /* Full width */
+  }
+
+  /* Links inside the navbar */
+  .navbar a {
+    float: left;
+    display: block;
+    color: #f2f2f2;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+  }
+
+  /* Change background on mouse-over */
+  .navbar a:hover {
+    background: #ddd;
+    color: black;
+  }
+
+  /* Main content */
+  .main {
+    margin-top: 35px; /* Add a top margin to avoid content overlay */
+  }
