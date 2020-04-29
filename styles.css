@@ -87,6 +87,7 @@ header, main, footer, h1, h2 {
   }
 
    nav ul {
+    white-space: nowrap;
     list-style-type: none;
     margin: 0;
     padding: 0;
@@ -95,7 +96,8 @@ header, main, footer, h1, h2 {
   }
 
   nav li {
-    float: left;
+    /* float: left; */
+    display: inline-block;
   }
 
   nav li a, .dropbtn {
