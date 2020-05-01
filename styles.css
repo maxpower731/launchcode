@@ -99,12 +99,12 @@ header, main, footer, h1, h2 {
   }
 
 
+
    nav ul {
     white-space: nowrap;
     list-style-type: none;
     margin: 0;
     padding: 0;
-    overflow: hidden;
     background-color: #333;
   }
 
@@ -113,8 +113,26 @@ header, main, footer, h1, h2 {
     display: inline-block;
   }
 
+  .navbar-right {
+    float: right; /* need to float right for the text to show on the right side of the page, display: in line block doesn't work*/
+    color: white;
+    text-align: center;
+    padding: 0;
+  }
 
-  nav li a, .dropbtn {
+  @media only screen and (max-width: 1024px) {
+    li#rightnav {
+        display: none;
+    }
+}
+
+  @media only screen and (max-width: 705px) {
+    #smallscreen {
+        display: none;
+    }
+  }
+
+  nav li a, .dropbtn, #rightnav {
     display: inline-block;
     color: white;
     text-align: center;
