@@ -46,11 +46,57 @@ p {
     /* display: block; */
 }
 
+ul p {
+  margin-top: 1%;
+}
+
 img {
   display: block;
   margin-right: auto;
   margin-left: auto;
   margin-bottom: 1px;
+  width: 97%;
+}
+
+.pictures {
+  overflow: hidden;
+}
+
+/* Add a transparency effect for thumbnail images */
+.demo {
+  opacity: 0.8;
+  float: left;
+  max-width: 33.33%;
+  height: 200px;
+  object-fit: cover;
+}
+
+#twophotos {
+  max-width: 50%;
+}
+
+.active,
+.demo:hover {
+  opacity: 1;
+}
+
+#inlineimg {
+  max-height: 200px;
+  margin-left: 0;
+  border: 4px solid #ddd;
+  border-radius: 4px;
+}
+
+#inlineimg:hover {
+  box-shadow: 0 0 2px 4px rgba(0, 140, 186, 0.5);
+}
+
+.thumbcolumn {
+  display: inline-block;
+  padding-left: 1.5%;
+}
+
+.thumbrow {
   width: 97%;
 }
 
@@ -62,13 +108,14 @@ img {
 
 ul.list {
   list-style-type: circle;
+  margin-bottom: 0;
 }
 
 ul.list ul li {
   list-style-type: square;
 }
 
-.lastElement {
+.lastelement {
     margin-bottom: 0;
 }
 
@@ -81,7 +128,7 @@ footer {
 footer p {
     font-size: .7em;
     margin: 0;
-    padding-top: 20px;
+    padding-top: 25px;
 }
 
 header, main, footer, h1, h2 {
@@ -96,9 +143,8 @@ header, main, footer, h1, h2 {
     top: 0; /* Position the navbar at the top of the page */
     left: 0; /* makes nav bar start all the way to the left of the page */
     width: 100%; /* Full width */
+    z-index: 1;
   }
-
-
 
    nav ul {
     white-space: nowrap;
